@@ -1,0 +1,104 @@
+Allgemeine Hinweise: ,"Ä,Ö,Ü wird zu ae, oe, ue, ß zu ss",,,,,,
+,keine Sonderzeichen verwenden!,,,,,,
+,bei fehlenden Werten immer 99 eintragen,,,,,,
+,,,,,,,
+Edgelist,,Nodelist,,,,,
+,,,,,,,
+from/to ,ID ,ID,"Bei Personen immer der Nachname. Bei Doppelung vom Nachname: Mit weiterem Buchstabe dahinter. Beispiel MayerA, MayerB ... ",Für Organisationen werden folgende IDs verwendet (siehe rechts):,,name,ID
+,,,,,,Alternative für Deutschland,AFD
+relation,1 = Mitglied der Organisation,name,Bei Personen Vor- und Nachname ,"bei Organisationen, deren vollständiger Name (siehe rechts)",,Identitaere Bewegung Schwaben,IBS
+,2 = Angestellt/Mitarbeiter ,,,,,Identitaere Bewegung Deutschland,IBDE
+,3 = sympatisiert mit,sex,1 = weiblich,,,Identitaere Bewegung Niedersachsen,IBN
+,4 = hat Post geteilt,,2 = männlich,,,Identitaere Bewegung Brandenburg,IBB
+,5 = Gründungsmitglied,,,,,Identitaere Bewegung Berlin,IBE
+,6 = hat Veranstaltung besucht,type,1 = Person,,,Junge Nationalisten,JN
+,7 = gemeinsamer Stammtisch/Versammlung,,2 = Organisation,,,Junge Alternative,JA
+,8 = war aktiv für ,,,,,Identitaere Bewegung Nordrhein Westfalen,IBNRW
+,9 = Abgeordneter Partei/Vorstand Organisation auf Bundesebene,age,1 = unter 20,,,Identitaere Bewegung Bayern,IBBA
+,10 = Abgeordneter Partei/Vorstand Orga auf Landesebene,,2 = 20 bis 25,,,Identitaere Bewegung Sachsen,IBSA
+,11 = RedakteurIn/AutorIn,,3 = 26 bis 30,,,Identitaere Bewegung Thüringen,IBT
+,12 = GeschäftsführerIn/Chef/Betreiber/Herausgeber,,4 = 31 bis 40 ,,,Identitaere Bewegung Schleswig Holstein,IBSH
+,13 = Treffen mit Mitglied ,,5 = 41 bis 60,,,Identitaere Bewegung Hessen,IBH
+,14 = folgt auf Twitter,,6 = über 60,,,Die Tagesstimme ,DT
+,15 = Politische/r AkitivistIn,,7 = verstorben,,,Aha!,AHA
+,16 = ehemaliges Mitglied,,,,,Ein Prozent fuer unser Land,EPL
+,17 = sympatisiert nicht ,,,,,einprozent.de,EinsP
+,18 = hat Kooperation mit ,,,,,Arktos Verlag,ASVerlag
+,,,,,,Verlag Antaios,VerlagA
+source,"1 = Literatur: “Die Identitären” von Julian Bruns, Kathrin Glösel & Natascha Strobl, 2016",,,,,AresVerlag,ARVerlag
+,"2 = Literatur: “Das Netzwerk der Identitären” von Andreas Speit, 2018",,,,,Jungeuropa Verlag,VerlagJE
+,3 = Verfassungsschutzberich,,,,,Laut Gedacht,LG
+,4 = Twitter,,,,,Das Leuchtfeuer,DLF
+,5 = Internet,,,,,Patriot Peer,PP
+,,,,,,Phalanx Europa,PE
+,,,,,,Junge Freiheit,JF
+,,,,,,120Dezibel,120D
+,,,,,,Defend Europe,DE
+,,,,,,Blaue Narzisse,BNA
+,,,,,,Sezession,SZS
+,,,,,,RING,RING
+,,,,,,Freilich-Magazin,FMagazin
+,,,,,,eigentümlich frei,EIF
+,,,,,,wochenblickat,WOA
+,,,,,,Neue Rechte,NR
+,,,,,,Bibliothek des Konservatismus ,BDK
+,,,,,,Institut für Staatspolitik,IFS
+,,,,,,Sezession im Netz,SZSDE
+,,,,,,revue éléments,REE
+,,,,,,Konservativ-subversive Aktion,KSA
+,,,,,,Boersenblatt News,BON
+,,,,,,FrankfurterBuchmesse,FRB
+,,,,,,Deutsche Gildenschaft,DG
+,,,,,,Patriotische Plattform,PAPL
+,,,,,,PI News,PIN
+,,,,,,radikal feminin,RF
+,,,,,,Arminia,ARM
+,,,,,,Arcadi,AR
+,,,,,,Compact,CP
+,,,,,,Deutsche Stimme,DES
+,,,,,,Bundeswehr,BUW
+,,,,,,Freiheitliche Partei Oesterreichs,FPOE
+,,,,,,Heimattreue Deutsche Jugend,HDJ
+,,,,,,Identitaere Bewegung Oesterreich,IBOE
+,,,,,,Kontra Kultur,KK
+,,,,,,LEGIDA,LEGIDA
+,,,,,,Kopp-Verlag,KV
+,,,,,,Mosaik Kommunikation,MK
+,,,,,,Deutsche Stimme,DS
+,,,,,,Nationaldemokratische Partei Deutschlands,NPD
+,,,,,,PEGIDA,PEGIDA
+,,,,,,Pils Identitaer,PI
+,,,,,,Saxo-Silesia,SASI
+,,,,,,Sommer- und Winterakademie,SUWA
+,,,,,,Lega Rom,LR
+,,,,,,Die Republikaner (Rechtspartei),DRB
+,,,,,,CasaPound,CPO
+,,,,,,Lesen und Schenken,LUSR
+,,,,,,Jungen Landsmannschaft Ostpreussen ,JLO
+,,,,,,Deutsche Burschenschaft,DB
+,,,,,,Burschenschaft Danubia München,DBM
+,,,,,,Burschenschaft Teutonia Prag,BTP
+,,,,,,Magazin Anbruch,MAN
+,,,,,,Renovamen-Verlag,RVE
+,,,,,,zwischentags,ZT
+,,,,,,Wiener Burschenschaft Olympia,WBO
+,,,,,,Universitaetssaengerschaft Barden zu Wien,USBW
+,,,,,,Burschenschaftlichen Blaetter,BUBL
+,,,,,,Vlog Identitaer,VI
+,,,,,,Verleger Albin Michel,Michel
+,,,,,,Robert Laffont Verlag,RLV
+,,,,,,Der Eckart,DEC
+,,,,,,Aufbau Verlag,AUV
+,,,,,,Verteidiger Europas,VEE
+,,,,,,Regin Verlag,RGV
+,,,,,,Karolinger Verlag,KAV
+,,,,,,Manuscriptum,MANU
+,,,,,,Quelltexte zur KR,QKR
+,,,,,,Verlag Bublies,VBU
+,,,,,,Edition Junge Freiheit,EJF
+,,,,,,Urburschenschaft,UB
+,,,,,,Loci Verlag,LVerlag
+,,,,,,Okzident Media,OM
+,,,,,,Generation Identitaer,GI
+,,,,,,Konservative Revolution,KR
+,,,,,,European Kitchen,EK
